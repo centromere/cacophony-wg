@@ -14,12 +14,10 @@ import qualified Network.Socket.ByteString  as NBS
 import           Prelude hiding             (replicate, take, drop)
 
 import Crypto.Noise
-import Crypto.Noise.Cipher
 import Crypto.Noise.Cipher.ChaChaPoly1305
 import Crypto.Noise.DH
 import Crypto.Noise.DH.Curve25519
 import Crypto.Noise.HandshakePatterns (noiseIKpsk2)
-import Crypto.Noise.Hash hiding (hash)
 import Crypto.Noise.Hash.BLAKE2s
 
 import Data.Time.TAI64
